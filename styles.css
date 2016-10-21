@@ -1,3 +1,141 @@
 body{
-	background: blue;
+	background: lightblue;
+	margin: 100px;
+}
+
+h1 { 
+height: 50px;
+width : 325px;
+margin : 25px;
+background : grey;
+color: yellow;
+border-style: solid ;
+border-color: black;
+border-radius: 10px;
+padding-left: 10px;
+padding-top: 10px;
+text-align: center;
+}
+
+h3 {
+width: 75px;
+margin-left : 25px;
+background : pink;
+border-style: groove ;
+border-color: yellow;
+border-width: 15px;
+border-radius: 5px;
+padding-left: 10px;
+
+}
+
+main {
+
+	background-image: url("clouds_in_sky.jpg");
+	border-style: solid;
+	border-radius: 5px;
+	margin-left: 25px;
+	height:500px;
+}
+
+.paragraph {
+     color: yellow;
+}
+
+a:visited {
+color: yellow;
+}
+
+a:active{
+color: yellow;
+}
+
+a:hover{
+	color: hotpink;	
+}
+p {
+	padding-left: 25px;
+	padding-top: 10px;
+}
+
+#p1 {
+font-family: helvetica;
+}
+
+#p2 {
+font-family: "Times New Roman";
+}
+
+#p3{
+font-family: verdana;
+}
+
+
+em {
+	font-weight: bold;
+	font-size: 1.25em;
+}
+
+img {
+padding-left: 25px;	
+}
+
+div {
+
+margin-left: 25px;
+margin-top: 100px;
+	
+}
+
+table{
+	margin-left: 100px;
+	background-color: black;
+}
+
+th {
+	color: yellow;
+}
+
+tr {
+	color: red;
+}
+
+.lastp {
+	font-size: 2em;
+	color: yellow;
+	background : grey;
+	margin-left:25px;
+	border-style: solid;
+	border-radius: 5px;
+	margin-right: 300px;
+	padding-bottom: 10px;
+}
+
+ul {
+	margin-left:25px;
+border-style: solid;
+border-radius: 5px;
+background-image: url("clouds_in_sky.jpg");
+color: green;
+}
+
+footer{
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+.aboutme{
+	font-weight: bold;
+	font-size: 2em;
+}
+
+/* background changed from light blue to blue when browser orientation change */
+
+@media only screen and (orientation: portrait) {
+    body {
+        background-color: blue;
+    }
 }
